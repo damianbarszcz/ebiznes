@@ -2,7 +2,10 @@ name := """app"""
 
 version := "1.0-SNAPSHOT"
 
-lazy val root = (project in file(".")).enablePlugins(PlayScala)
+lazy val root = (project in file(".")).enablePlugins(PlayScala).settings(
+  // Inne ustawienia...
+  mainClass in Compile := Some("controllers.HomeController")
+)
 
 scalaVersion := "2.13.13"
 
