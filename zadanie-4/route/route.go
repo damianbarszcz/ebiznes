@@ -12,4 +12,8 @@ func Init(g *echo.Group) {
 	})
 
 	g.GET("/products", controllers.GetProducts)
+	g.GET("/products/:id", controllers.GetProduct)
+	g.POST("/products", controllers.CreateProduct)
+	g.PUT("/products/:id", controllers.UpdateProduct)
+	g.DELETE("/products/:id", controllers.DeleteProduct)
 }

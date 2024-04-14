@@ -3,10 +3,13 @@ package main
 import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
+	"myapp/database"
 	"myapp/route"
 )
 
 func main() {
+	database.Connection()
+
 	app := echo.New()
 
 	app.Use(middleware.CORSWithConfig(middleware.CORSConfig{
@@ -16,6 +19,8 @@ func main() {
 	}))
 
 	route.Init(app.Group("/api"))
+
+	defer database.CloseDB()
 
 	app.Logger.Fatal(app.Start(":3000"))
 }
