@@ -13,6 +13,6 @@
 
 **Zadanie 4** Go
 
-:x: 4.0 wymaganie 1 [Link](https://github.com/damianbarszcz/ebiznes/tree/main/zadanie-4)
+:x: 3.5 wymaganie 2 [Link](https://github.com/damianbarszcz/ebiznes/tree/main/zadanie-4)
 
 
