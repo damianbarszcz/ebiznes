@@ -11,8 +11,8 @@
 
 :x: 3.0 wymaganie 1 [Link](https://github.com/damianbarszcz/ebiznes/tree/main/zadanie-3)
 
-**Zadanie 4** Kotlin
+**Zadanie 4** Go
 
-:x: 3.0 wymaganie 1 [Link](https://github.com/damianbarszcz/ebiznes/tree/main/zadanie-3)
+:x: 3.0 wymaganie 1 [Link](https://github.com/damianbarszcz/ebiznes/tree/main/zadanie-4)
 
 
