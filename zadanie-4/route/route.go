@@ -20,4 +20,6 @@ func Init(g *echo.Group) {
 	g.GET("/carts", controllers.GetAllCarts)
 	g.GET("/carts/:cart_id", controllers.GetCart)
 	g.POST("/cart/add-to-cart", controllers.AddToCart)
+	g.PUT("/cart/:cart_id/:product_id", controllers.UpdateCart)
+	g.DELETE("/cart/:cart_id/:product_id", controllers.DeleteFromCart)
 }

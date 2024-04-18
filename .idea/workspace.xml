@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4698292-0902-4661-a351-80e08e1449c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zadanie-4/controllers/CartController.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-4/controllers/CartController.go" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie-4/controllers/CartController.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zadanie-4/models/cart.go" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie-4/models/cart.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zadanie-4/myapp.db" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie-4/myapp.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zadanie-4/route/route.go" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie-4/route/route.go" afterDir="false" />
@@ -101,7 +100,8 @@
       <workItem from="1713220880669" duration="142000" />
       <workItem from="1713221032347" duration="71000" />
       <workItem from="1713221110734" duration="870000" />
-      <workItem from="1713290925816" duration="10359000" />
+      <workItem from="1713290925816" duration="10491000" />
+      <workItem from="1713375391615" duration="6725000" />
     </task>
     <servers />
   </component>
