@@ -13,6 +13,6 @@
 
 **Zadanie 4** Go
 
-:x: 4.0 wymaganie 3 [Link](https://github.com/damianbarszcz/ebiznes/tree/main/zadanie-4)
+:white_check_mark: 4.0 wymaganie 3 [Link](https://github.com/damianbarszcz/ebiznes/tree/main/zadanie-4)
 
 
