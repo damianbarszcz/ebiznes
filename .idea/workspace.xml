@@ -6,8 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="f4698292-0902-4661-a351-80e08e1449c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie-4/myapp.db" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie-4/myapp.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/src/main/kotlin/com/example/plugins/Application.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/src/main/kotlin/com/example/plugins/Routing.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/src/main/resources/logback.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +109,9 @@
       <workItem from="1713221110734" duration="870000" />
       <workItem from="1713290925816" duration="10491000" />
       <workItem from="1713375391615" duration="7104000" />
-      <workItem from="1713479152875" duration="3572000" />
+      <workItem from="1713479152875" duration="3694000" />
+      <workItem from="1713554708717" duration="610000" />
+      <workItem from="1713629276100" duration="3194000" />
     </task>
     <servers />
   </component>
