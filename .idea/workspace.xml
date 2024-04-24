@@ -14,7 +14,7 @@
       <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/gradlew" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/src/main/kotlin/com/example/plugins/Application.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/src/main/kotlin/com/example/Application.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/src/main/kotlin/com/example/plugins/Routing.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/src/main/resources/logback.xml" beforeDir="false" />
     </list>
@@ -66,7 +66,7 @@
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/ebiznes/Zadania/ebiznes/zadanie-3/ktor-app/settings.gradle.kts&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/ebiznes/Zadania/ebiznes&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -112,6 +112,8 @@
       <workItem from="1713479152875" duration="3694000" />
       <workItem from="1713554708717" duration="610000" />
       <workItem from="1713629276100" duration="3194000" />
+      <workItem from="1713650477286" duration="19000" />
+      <workItem from="1713650608948" duration="177000" />
     </task>
     <servers />
   </component>
