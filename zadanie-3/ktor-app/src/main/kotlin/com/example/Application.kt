@@ -19,12 +19,19 @@ import kotlinx.serialization.json.Json
 import io.github.cdimascio.dotenv.Dotenv;
 import io.ktor.client.statement.*
 
+import dev.kord.core.Kord
+import dev.kord.core.event.message.MessageCreateEvent
+import dev.kord.gateway.Intent
+import dev.kord.core.on
+
 @Serializable
 data class MessageContent(val content: String)
 
 suspend fun main() {
     val dotenv: Dotenv = Dotenv.load()
     val webhookUrl = dotenv.get("DISCORD_WEBHOOK_URL");
+    val token = dotenv.get("DISCORD_BOT_TOKEN")
+    val kord = Kord(token)
 
     val client = HttpClient(CIO){
         install(ContentNegotiation) {
@@ -71,5 +78,27 @@ suspend fun main() {
                 }
             }
         }
-    }.start(wait = true)
+    }.start(wait = false)
+
+    try{
+        kord.login{
+            intents += Intent.GuildMessages
+            intents += Intent.DirectMessages
+
+            kord.on<MessageCreateEvent> {
+                if (message.author?.isBot == false) {
+                    val botId = kord.selfId
+
+                    if (message.content.contains("<@${botId.value}>")) {
+                        val userName = message.author?.username ?: "Unknown"
+                        message.channel.createMessage("Hello $userName , I receive you message!")
+                    }
+                }
+            }
+        }
+    }
+    catch (e: Exception) {
+        println("Login error: ${e.localizedMessage}")
+        return
+    }
 }
