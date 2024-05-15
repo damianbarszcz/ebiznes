@@ -5,18 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4698292-0902-4661-a351-80e08e1449c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/backend/controllers/CartController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/backend/controllers/ProductController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/backend/database/connection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/backend/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/backend/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/backend/models/cart.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/backend/models/payment.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/backend/models/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/backend/myapp.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/backend/route/route.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/backend/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/frontend/src/components/Alert.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/frontend/src/components/Cart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/frontend/src/components/Navigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/frontend/src/components/Products.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/frontend/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/frontend/src/templates/CartView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/frontend/src/templates/IndexView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-5/frontend/src/templates/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-6/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-8/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/src/main/kotlin/com/example/Application.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/src/main/kotlin/com/example/plugins/Routing.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie-3/ktor-app/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +49,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ktor-app" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -43,6 +64,9 @@
   <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.18.10" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -62,19 +86,40 @@
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/ebiznes/Zadania/ebiznes&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maild/Desktop/Ebiznes/Ćwiczenia/Zadania/ebiznes/zadanie-5/backend/models&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Jetbrains\\IntelliJ IDEA 2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;C:\\Users\\maild\\.gradle&quot;
+    ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\backend\models" />
+      <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\backend\controllers" />
+      <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\frontend\src" />
+      <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\backend\route" />
+      <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\backend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\backend" />
+      <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\backend\database" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -114,6 +159,26 @@
       <workItem from="1713629276100" duration="3194000" />
       <workItem from="1713650477286" duration="19000" />
       <workItem from="1713650608948" duration="177000" />
+      <workItem from="1714774926497" duration="1849000" />
+      <workItem from="1714828309237" duration="12613000" />
+      <workItem from="1714912891256" duration="10954000" />
+      <workItem from="1714950911791" duration="64000" />
+      <workItem from="1714950983046" duration="79000" />
+      <workItem from="1714951069218" duration="372000" />
+      <workItem from="1715017277915" duration="570000" />
+      <workItem from="1715192651316" duration="3460000" />
+      <workItem from="1715208769618" duration="173000" />
+      <workItem from="1715208965430" duration="245000" />
+      <workItem from="1715286283299" duration="626000" />
+      <workItem from="1715353390055" duration="653000" />
+      <workItem from="1715417302385" duration="13668000" />
+      <workItem from="1715505708098" duration="11064000" />
+      <workItem from="1715536055706" duration="600000" />
+      <workItem from="1715538333421" duration="9352000" />
+      <workItem from="1715551258249" duration="2767000" />
+      <workItem from="1715622153606" duration="9455000" />
+      <workItem from="1715704920278" duration="6608000" />
+      <workItem from="1715798253241" duration="7449000" />
     </task>
     <servers />
   </component>
