@@ -1,4 +1,4 @@
-## Zadanie-7 (frontend)
+## Zadanie-7 (backend)
 ---
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=damianbarszcz_ebiznes&metric=bugs)](https://sonarcloud.io/summary/new_code?id=damianbarszcz_ebiznes)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=damianbarszcz_ebiznes&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=damianbarszcz_ebiznes)

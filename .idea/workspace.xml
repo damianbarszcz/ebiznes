@@ -5,36 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4698292-0902-4661-a351-80e08e1449c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/IntelliLang.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/controllers/CartController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/controllers/ProductController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/database/connection.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/models/cart.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/models/payment.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/models/product.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/myapp.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/route/route.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/public/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/assets/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/components/Alert.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/components/Cart.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/components/Navigation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/components/Products.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/templates/CartView.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/templates/IndexView.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/templates/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-7/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie-7/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadanie-7/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/zadanie-7/frontend/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +85,7 @@
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/maild/Desktop/Ebiznes/Ćwiczenia/Zadania/ebiznes/zadanie-7",
+    "last_opened_file_path": "C:/Users/maild/Desktop/Ebiznes/Ćwiczenia/Zadania/ebiznes/zadanie-7/backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -128,11 +103,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-7\backend" />
       <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-7" />
       <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-10" />
       <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-9" />
       <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\backend\models" />
-      <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\backend\controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\backend" />
@@ -204,7 +179,7 @@
       <workItem from="1719153677361" duration="374000" />
       <workItem from="1719154062568" duration="243000" />
       <workItem from="1719154315439" duration="179000" />
-      <workItem from="1719154504058" duration="2709000" />
+      <workItem from="1719154504058" duration="9557000" />
     </task>
     <servers />
   </component>
