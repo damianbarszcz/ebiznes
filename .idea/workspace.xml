@@ -5,15 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4698292-0902-4661-a351-80e08e1449c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zadanie-10/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadanie-9/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/IntelliLang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/controllers/CartController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/controllers/ProductController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/database/connection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/models/cart.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/models/payment.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/models/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/myapp.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/route/route.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/backend/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/components/Alert.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/components/Cart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/components/Navigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/components/Products.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/templates/CartView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/templates/IndexView.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie-7/frontend/src/templates/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/zadanie-3/ktor-app">
@@ -37,12 +66,26 @@
       </state>
     </system>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
   <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.18.10" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -67,7 +110,7 @@
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/maild/Desktop/Ebiznes/Ćwiczenia/Zadania/ebiznes/zadanie-10",
+    "last_opened_file_path": "C:/Users/maild/Desktop/Ebiznes/Ćwiczenia/Zadania/ebiznes/zadanie-7",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,11 +128,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-7" />
       <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-10" />
       <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-9" />
       <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\backend\models" />
       <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\backend\controllers" />
-      <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\frontend\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\maild\Desktop\Ebiznes\Ćwiczenia\Zadania\ebiznes\zadanie-5\backend" />
@@ -99,8 +142,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -154,7 +196,15 @@
       <workItem from="1715551258249" duration="2767000" />
       <workItem from="1715622153606" duration="9455000" />
       <workItem from="1715704920278" duration="6608000" />
-      <workItem from="1715798253241" duration="8564000" />
+      <workItem from="1715798253241" duration="9291000" />
+      <workItem from="1716922435094" duration="3000" />
+      <workItem from="1719080114457" duration="8000" />
+      <workItem from="1719080641280" duration="1451000" />
+      <workItem from="1719082136835" duration="86000" />
+      <workItem from="1719153677361" duration="374000" />
+      <workItem from="1719154062568" duration="243000" />
+      <workItem from="1719154315439" duration="179000" />
+      <workItem from="1719154504058" duration="2709000" />
     </task>
     <servers />
   </component>
