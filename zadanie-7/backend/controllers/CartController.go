@@ -49,7 +49,7 @@ func AddToCart(c echo.Context) error {
 
 	var cart models.Cart
 	result := database.Db.Where("cart_id = ? AND product_id = ?", request.CardID, request.ProductID).First(&cart)
-
+	//New change
 	if errors.Is(result.Error, gorm.ErrRecordNotFound) {
 		cart = models.Cart{
 			CartID:       request.CardID,
