@@ -10,6 +10,7 @@ type Product struct {
 
 	ID        uint
 	Name      string
+	Image     string
 	Price     int
 	CreatedAt time.Time
 	UpdatedAt time.Time

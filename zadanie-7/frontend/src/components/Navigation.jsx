@@ -6,7 +6,7 @@ const Container = styled.div`
     display: block;
     margin:auto;
     width: 100%;
-    max-width: 1800px;
+    max-width: 1650px;
 `
 
 const NavBlock = styled.nav`
@@ -24,6 +24,10 @@ const NavListItem = styled.li`
     display: inline;
     list-style-type: none;
     margin-right:1rem;
+    
+    &:nth-child(2){
+        margin-right: 0rem;
+    }
 `
 const NavListLink = styled(Link)`
     font-weight: 400;

@@ -8,6 +8,8 @@ const IndexView = () => {
     const cartID = 1;
 
     useEffect(() => {
+        document.title = `Sklep Internetowy | Strona główna`;
+
         (async () => {
             const { data } = await axios.get(`http://localhost:8000/api/products`);
             getProducts(data);

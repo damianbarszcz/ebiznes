@@ -13,6 +13,8 @@ const CartView = () => {
     };
 
     useEffect(() => {
+        document.title = `Sklep Internetowy | Koszyk`;
+
         fetchCart();
         if (success) {
             const timer = setTimeout(() => {

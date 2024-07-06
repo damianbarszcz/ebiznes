@@ -3,6 +3,7 @@ package database
 import (
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
+	"log"
 	"myapp/models"
 )
 
@@ -15,9 +16,15 @@ func Connection() {
 		panic("failed to connect database")
 	}
 
-	Db.AutoMigrate(&models.Product{})
-	Db.AutoMigrate(&models.Cart{})
-	Db.AutoMigrate(&models.Payment{})
+	if err := Db.AutoMigrate(&models.Product{}); err != nil {
+		log.Fatalf("Failed to migrate Product: %v", err)
+	}
+	if err := Db.AutoMigrate(&models.Cart{}); err != nil {
+		log.Fatalf("Failed to migrate Cart: %v", err)
+	}
+	if err := Db.AutoMigrate(&models.Payment{}); err != nil {
+		log.Fatalf("Failed to migrate Payment: %v", err)
+	}
 }
 
 func CloseDB() {

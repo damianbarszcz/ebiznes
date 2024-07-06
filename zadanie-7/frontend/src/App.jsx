@@ -1,5 +1,5 @@
 import {  Route, Routes } from "react-router-dom";
-import { IndexView,CartView } from "./templates";
+import { IndexView,CartView,ProductView } from "./templates";
 
 const App = () => {
 
@@ -7,6 +7,7 @@ const App = () => {
         <Routes>
             <Route path="/" element={<IndexView />} exact />
             <Route path="/cart" element={<CartView />}  />
+            <Route path="/product/:id" element={<ProductView />}  />
         </Routes>
     );
 }

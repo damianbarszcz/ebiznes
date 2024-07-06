@@ -12,7 +12,9 @@ func Init(g *echo.Group) {
 	})
 
 	g.GET("/products", controllers.GetProducts)
+	g.GET("/products/:id", controllers.GetProduct)
 	g.GET("/carts/:cart_id", controllers.GetCart)
 	g.POST("/cart/add-to-cart", controllers.AddToCart)
 	g.POST("/cart/make-payment", controllers.MakePayment)
+
 }
