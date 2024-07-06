@@ -1,0 +1,20 @@
+[
+  {
+    "ProductID": 1,
+    "product_name": "ASUS TUF Gaming F15",
+    "product_price": 3499,
+    "product_count": 1
+  },
+  {
+    "ProductID": 2,
+    "product_name": "Xiaomi Redmi Note 13",
+    "product_price": 599,
+    "product_count": 2
+  },
+  {
+    "ProductID": 3,
+    "product_name": "MSI G255PF E2",
+    "product_price": 599,
+    "product_count": 1
+  }
+]

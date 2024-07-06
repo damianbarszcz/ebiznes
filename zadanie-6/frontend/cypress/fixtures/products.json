@@ -1,0 +1,50 @@
+[
+  {
+    "ID": 1,
+    "Name": "ASUS TUF Gaming F15",
+    "Image": "./images/products/asus_tuf_gaming_f15.png",
+    "Price": 3499
+  },
+  {
+    "ID": 2,
+    "Name": "Xiaomi Redmi Note 13",
+    "Image": "./images/products/xiaomi_redmi_note_13.png",
+    "Price": 599
+  },
+  {
+    "ID": 3,
+    "Name": "MSI G255PF E2",
+    "Image": "./images/products/msi_g255pf_e2.png",
+    "Price": 599
+  },
+  {
+    "ID": 4,
+    "Name": "Samsung 500GB M.2 PCIe",
+    "Image": "./images/products/samsung_500_gb_m.2_pcie.png",
+    "Price": 309
+  },
+  {
+    "ID": 5,
+    "Name": "Intel Core i7-14700KF",
+    "Image": "./images/products/intel_core_i7_14700kf.png",
+    "Price": 1799
+  },
+  {
+    "ID": 6,
+    "Name": "Logitech G PRO X",
+    "Image": "./images/products/logitech_g_pro_x.png",
+    "Price": 529
+  },
+  {
+    "ID": 7,
+    "Name": "Imou Cruiser SE+",
+    "Image": "./images/products/imo_cruiser_se+.png",
+    "Price": 280
+  },
+  {
+    "ID": 8,
+    "Name": "SteelSeries Rival 5",
+    "Image": "./images/products/steel_series_rival_5.png",
+    "Price": 235
+  }
+]
