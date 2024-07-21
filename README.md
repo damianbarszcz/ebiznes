@@ -24,7 +24,7 @@
 
 **Zadanie 7** Sonar
 
-:x: 3.0 wymaganie 1 [Link](https://github.com/damianbarszcz/ebiznes/tree/main/zadanie-7)
+:x: 5.0 wymaganie 5 [Link](https://github.com/damianbarszcz/ebiznes/tree/main/zadanie-7)
 
 **Zadanie 8**  Oauth2
 
