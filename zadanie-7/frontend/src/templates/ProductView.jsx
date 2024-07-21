@@ -6,13 +6,13 @@ import axios from "axios";
 
 const ProductView = () => {
     const { id } = useParams();
-    const [product, getProduct] = useState(null);
+    const [product, setProduct] = useState(null);
 
     useEffect(() => {
         (async () => {
             try {
                 const { data } = await axios.get(`http://localhost:8000/api/products/${id}`);
-                getProduct(data);
+                setProduct(data);
                 console.log(data);
             } catch (error) {
                 console.error('Error fetching product data', error);

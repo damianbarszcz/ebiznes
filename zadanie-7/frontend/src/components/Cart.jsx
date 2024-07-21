@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import PropTypes from 'prop-types';
 
 const Container = styled.div`
     display: block;
@@ -140,6 +141,14 @@ const Cart = (props) => {
             </CartInner>
         </Container>
     );
+};
+
+Cart.propTypes = {
+    cart: PropTypes.arrayOf(PropTypes.shape({
+        product_price: PropTypes.number.isRequired,
+        product_count: PropTypes.number.isRequired,
+    })).isRequired,
+    makePayment: PropTypes.func.isRequired,
 };
 
 export default Cart;

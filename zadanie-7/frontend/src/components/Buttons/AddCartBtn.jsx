@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 const BtnCart = styled.button`
     position: absolute;
@@ -64,6 +65,11 @@ const AddCartBtn = (props) => {
             </svg>
         </BtnCart>
     );
+};
+
+AddCartBtn.propTypes = {
+    addToCart: PropTypes.func.isRequired,
+    id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
 };
 
 export default AddCartBtn;

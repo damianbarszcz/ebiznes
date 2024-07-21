@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import PropTypes from 'prop-types';
 
 const Container = styled.div`
     display: block;
@@ -58,6 +59,14 @@ const SingleProduct = (props) => {
             </SingleProductInner>
         </Container>
     );
+};
+
+SingleProduct.propTypes = {
+    product: PropTypes.shape({
+        Name: PropTypes.string.isRequired,
+        Price: PropTypes.number.isRequired,
+        Image: PropTypes.string.isRequired
+    }).isRequired
 };
 
 export default SingleProduct;

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {AddCartBtn} from '../components';
+import PropTypes from 'prop-types';
 
 const Container = styled.div`
     display: block;
@@ -128,6 +129,13 @@ const Products = (props) => {
             </ProductsInner>
         </Container>
     );
+};
+
+Products.propTypes = {
+    products: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+    })).isRequired,
+    addToCart: PropTypes.func.isRequired,
 };
 
 export default Products;
