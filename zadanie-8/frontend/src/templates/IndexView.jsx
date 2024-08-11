@@ -3,23 +3,23 @@ import {Navigation, Products, Alert} from '../components';
 import axios from "axios";
 
 const IndexView = () => {
-    const [products, getProducts] = useState([]);
-    const [success, getSuccess] = useState(false);
+    const [products, setProducts] = useState([]);
+    const [success, setSuccess] = useState(false);
     const cartID = 1;
 
     useEffect(() => {
         (async () => {
             const { data } = await axios.get(`http://localhost:8000/api/products`);
-            getProducts(data);
+            setProducts(data);
         })();
-        if (getSuccess) {
+        if (setSuccess) {
             const timer = setTimeout(() => {
-                getSuccess(false);
+                setSuccess(false);
             }, 3000);
 
             return () => clearTimeout(timer);
         }
-    }, [getSuccess]);
+    }, [setSuccess]);
 
     const addToCart = async (productID) => {
         try {
@@ -29,7 +29,7 @@ const IndexView = () => {
                 cart_id: cartID
             });
             if (response.status === 200) {
-                getSuccess(true)
+                setSuccess(true)
             }
         } catch (error) {
             alert('Błąd podczas dodawania produktu do koszyka.');

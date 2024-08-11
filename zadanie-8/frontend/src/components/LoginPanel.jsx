@@ -33,13 +33,15 @@ const LoginForm = styled.form`
 
 const FormGroup = styled.div`
     margin-bottom:2rem;
-    
-    &:last-child{
-        text-align: right;
-    }
+`
+
+const FormGroupInline = styled.div`
+    display: flex;
+    margin-bottom:2rem;
 `
 
 const FormInput = styled.input`
+    box-sizing: border-box;
     width:100%;
     max-width: 100%;
     padding: 1rem;
@@ -50,6 +52,24 @@ const FormSubmitBtn = styled.button`
     padding: 0.85rem 2.35rem;
     background-color: transparent;
     border: 1px solid #DB1F48;
+`
+
+const OAuthBtn = styled.a`
+    display: block;
+    margin-right: auto;
+    width:10rem;
+    text-decoration: none;
+    line-height: 45px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 25px;
+    font-size:0.8rem;
+    color:#000;
+    border:1px solid #000;
+    
+    &:hover{
+        color:#4c8bf5;
+    }
 `
 
 const LoginPanel = (props) => {
@@ -63,8 +83,8 @@ const LoginPanel = (props) => {
 
                 <LoginForm onSubmit={props.handleLogin}>
                     <FormGroup>
-                        <FormInput type="text"  value={props.username}  placeholder="Nazwa użytkownika"
-                                   onChange={(e) => props.setUsername(e.target.value)} required />
+                        <FormInput type="text"  value={props.email}  placeholder="Adres email"
+                                   onChange={(e) => props.setEmail(e.target.value)} required />
                     </FormGroup>
 
                     <FormGroup>
@@ -72,9 +92,10 @@ const LoginPanel = (props) => {
                                    onChange={(e) => props.setPassword(e.target.value)} required />
                     </FormGroup>
 
-                    <FormGroup>
+                    <FormGroupInline>
+                        <OAuthBtn href="http://localhost:8000/api/auth/google/login">Zaloguj przez Google</OAuthBtn>
                         <FormSubmitBtn type="submit">Zaloguj</FormSubmitBtn>
-                    </FormGroup>
+                    </FormGroupInline>
                 </LoginForm>
             </LoginInner>
         </Container>

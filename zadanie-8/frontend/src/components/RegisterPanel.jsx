@@ -40,6 +40,7 @@ const FormGroup = styled.div`
 `
 
 const FormInput = styled.input`
+    box-sizing: border-box;
     width:100%;
     max-width: 100%;
     padding: 1rem;
@@ -63,12 +64,22 @@ const RegisterPanel = (props) => {
 
                 <LoginForm onSubmit={props.handleRegister}>
                     <FormGroup>
-                        <FormInput type="text"  value={props.username}  placeholder="Podaj nazwę użytkownika"
-                                   onChange={(e) => props.setUsername(e.target.value)} required />
+                        <FormInput type="text"  value={props.name}  placeholder="Imię"
+                                   onChange={(e) => props.setName(e.target.value)} required />
                     </FormGroup>
 
                     <FormGroup>
-                        <FormInput type="password"  placeholder="Podaj Hasło"  value={props.password}
+                        <FormInput type="text"  value={props.surename}  placeholder="Nazwisko"
+                                   onChange={(e) => props.setSurename(e.target.value)} required />
+                    </FormGroup>
+
+                    <FormGroup>
+                        <FormInput type="text"  value={props.email}  placeholder="Adres email"
+                                   onChange={(e) => props.setEmail(e.target.value)} required />
+                    </FormGroup>
+
+                    <FormGroup>
+                        <FormInput type="password"  placeholder="Hasło"  value={props.password}
                                    onChange={(e) => props.setPassword(e.target.value)} required />
                     </FormGroup>
 

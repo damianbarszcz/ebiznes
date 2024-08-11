@@ -5,6 +5,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"log"
+	"myapp/config"
 	"myapp/database"
 	"myapp/route"
 )
@@ -16,7 +17,7 @@ func main() {
 	}
 
 	database.Connection()
-
+	cfg := config.NewConfig()
 	app := echo.New()
 
 	app.Use(middleware.CORSWithConfig(middleware.CORSConfig{
@@ -24,8 +25,9 @@ func main() {
 		AllowMethods:     []string{echo.GET, echo.PUT, echo.POST, echo.DELETE},
 		AllowCredentials: true,
 	}))
+
 	api := app.Group("/api")
-	route.Init(api)
+	route.Init(api, cfg)
 
 	defer database.CloseDB()
 	app.Logger.Fatal(app.Start(":8000"))

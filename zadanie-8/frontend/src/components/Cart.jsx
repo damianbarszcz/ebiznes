@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import PropTypes from 'prop-types';
 
 const Container = styled.div`
     display: block;
@@ -107,39 +108,47 @@ const Cart = (props) => {
             </CartHeader>
 
             <CartInner>
-                {props.cart !== null  ?
+                {props.cart !== null && props.cart.length > 0 ?
                     <CartBox>
                         {props.cart.map(product =>
-                            <CartBoxItem key={product.ProductID}>
-                                <CartBoxItemName>{product.product_name}</CartBoxItemName>
+                            <CartBoxItem key={product.ProductID} data-cy="cart-item">
+                                <CartBoxItemName data-cy="product-name">{product.product_name}</CartBoxItemName>
 
                                 <CartBoxItemDetails>
-                                    <CartBoxItemPrice>{product.product_price} zł</CartBoxItemPrice>
-                                    <CartBoxItemCount>{product.product_count}</CartBoxItemCount>
+                                    <CartBoxItemPrice data-cy="product-price">{product.product_price} zł</CartBoxItemPrice>
+                                    <CartBoxItemCount data-cy="product-count">{product.product_count}</CartBoxItemCount>
                                 </CartBoxItemDetails>
                             </CartBoxItem>
                         )}
 
                         <CartBoxProductBuy>
                             <CartBoxProductBuyPrice>
-                                <CartBoxProductBuyPriceCaption>
+                                <CartBoxProductBuyPriceCaption data-cy="total-amount">
                                     Łączna kwota: <strong>{totalAmount} zł</strong>
                                 </CartBoxProductBuyPriceCaption>
                             </CartBoxProductBuyPrice>
 
-                            <CartBoxProductBuyBtn>
+                            <CartBoxProductBuyBtn data-cy="cart-pay-button">
                                 <CartBoxProductBuyBtnCaption onClick={() => props.makePayment(totalAmount)}>Zapłać</CartBoxProductBuyBtnCaption>
                             </CartBoxProductBuyBtn>
                         </CartBoxProductBuy>
                     </CartBox> :
 
-                    <CartNotFound>
+                    <CartNotFound data-cy="cart-not-found">
                         <CartNotFoundTitle>Twój koszyk jest pusty.</CartNotFoundTitle>
                     </CartNotFound>
                 }
             </CartInner>
         </Container>
     );
+};
+
+Cart.propTypes = {
+    cart: PropTypes.arrayOf(PropTypes.shape({
+        product_price: PropTypes.number.isRequired,
+        product_count: PropTypes.number.isRequired,
+    })).isRequired,
+    makePayment: PropTypes.func.isRequired,
 };
 
 export default Cart;

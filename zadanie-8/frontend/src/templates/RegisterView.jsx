@@ -4,14 +4,16 @@ import {useNavigate} from "react-router-dom";
 import axios from "axios";
 
 const RegisterView = () => {
-    const [username, setUsername] = useState('');
+    const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [name, setName] = useState('');
+    const [surename, setSurename] = useState('');
     const navigate = useNavigate();
 
     const handleRegister  = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8000/api/register', { username, password });
+            const response = await axios.post('http://localhost:8000/api/register', { email, password, name, surename });
             console.log(response.data);
             navigate('/login');
         } catch (error) {
@@ -22,8 +24,8 @@ const RegisterView = () => {
     return (
         <>
             <Navigation />
-            <RegisterPanel username = {username} password = {password} handleRegister = {handleRegister} setUsername = {setUsername}
-                        setPassword = {setPassword}/>
+            <RegisterPanel email = {email} password = {password} handleRegister = {handleRegister} setEmail = {setEmail}
+                        setPassword = {setPassword} name = {name}  setName = {setName} surename = {surename} setSurename={ setSurename } />
         </>
     );
 };

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import PropTypes from 'prop-types';
 
 const Container = styled.div`
     display: block;
@@ -31,6 +32,10 @@ const Alert = (props) => {
             </Container>
         </AlertBlock>
     );
+};
+
+Alert.propTypes = {
+    message: PropTypes.string.isRequired,
 };
 
 export default Alert;

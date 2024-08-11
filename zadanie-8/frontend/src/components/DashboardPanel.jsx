@@ -44,7 +44,8 @@ const DashboardPanel = (props) => {
         <Container>
             <DashboardPanelInner>
                 <DashboardPanelHeader>
-                    <DashboardPanelHeaderCaption>Witaj, <strong>{props.username}</strong></DashboardPanelHeaderCaption>
+                    <DashboardPanelHeaderCaption>Witaj, <strong>{props.email}</strong></DashboardPanelHeaderCaption>
+                    <DashboardPanelHeaderSmallCaption>Nazwa: <strong>{props.firstName}  {props.lastName}</strong></DashboardPanelHeaderSmallCaption>
                     <DashboardPanelHeaderSmallCaption>Twój token: <strong>{props.token}</strong></DashboardPanelHeaderSmallCaption>
                 </DashboardPanelHeader>
 

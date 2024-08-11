@@ -1,7 +1,7 @@
-import React from "react";
 import { useEffect, useState } from 'react';
 import {Link, useNavigate} from "react-router-dom";
 import styled from "styled-components";
+import Cookies from 'js-cookie';
 
 const Container = styled.div`
     display: block;
@@ -43,9 +43,9 @@ const Navigation = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        // Sprawdź obecność tokena JWT w localStorage
-        const token = localStorage.getItem('token');
-        if (token) {
+        const storedUserData = Cookies.get('user_data');
+
+        if (storedUserData) {
             setIsLoggedIn(true);
         } else {
             setIsLoggedIn(false);

@@ -4,19 +4,14 @@ import { useNavigate } from 'react-router-dom';
 import axios from "axios";
 
 const LoginView = () => {
-    const [username, setUsername] = useState('');
+    const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate();
 
     const handleLogin = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8000/api/login', { username, password });
-            const { token, username: loggedInUsername } = response.data;
-
-            localStorage.setItem('token', token);
-            localStorage.setItem('username', loggedInUsername);
-
+            await axios.post('http://localhost:8000/api/login', { email, password }, { withCredentials: true });
             navigate('/user/dashboard');
         } catch (error) {
             console.error('Error logging in:', error);
@@ -27,8 +22,8 @@ const LoginView = () => {
     return (
         <>
             <Navigation />
-            <LoginPanel username = {username} password = {password} handleLogin = {handleLogin}
-                        setUsername = {setUsername} setPassword = {setPassword}/>
+            <LoginPanel email = {email} password = {password} handleLogin = {handleLogin}
+                        setEmail = {setEmail} setPassword = {setPassword}/>
         </>
     );
 };

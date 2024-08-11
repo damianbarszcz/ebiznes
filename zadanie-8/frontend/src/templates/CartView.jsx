@@ -3,20 +3,26 @@ import {Navigation,Cart,Alert} from '../components';
 import axios from "axios";
 
 const CartView = () => {
-    const [cart, getCart] = useState([]);
-    const [success, getSuccess] = useState(false);
-    const cartID = 1;
+    const [cart, setCart] = useState([]);
+    const [success, setSuccess] = useState(false);
+    const cartID  = 1;
 
     const fetchCart = async () => {
-        const { data } = await axios.get('http://localhost:8000/api/carts/1');
-        getCart(data);
+        try {
+            const { data } = await axios.get(`http://localhost:8000/api/carts/${cartID}`);
+            setCart(data);
+        } catch (error) {
+            console.error("Error fetching cart:", error);
+        }
     };
 
     useEffect(() => {
+        document.title = `Sklep Internetowy | Koszyk`;
+
         fetchCart();
         if (success) {
             const timer = setTimeout(() => {
-                getSuccess(false);
+                setSuccess(false);
             }, 3000);
 
             return () => clearTimeout(timer);
